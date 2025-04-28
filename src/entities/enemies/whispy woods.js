@@ -1,5 +1,5 @@
-import { apple } from "../atacks/apple.js";
-import { wind } from "../atacks/wind.js";
+import { apple } from "./../atacks/apple.js";
+import { wind } from "./../atacks/wind.js";
 
 export class whispy_woods extends Phaser.Physics.Arcade.Sprite {
     constructor(scene, x, y) {
