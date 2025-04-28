@@ -1,4 +1,4 @@
-import { createBeam, updateBeam } from "../atacks/beam.js";
+import { createBeam, updateBeam } from "./../atacks/beam.js";
 
 export class waddle extends Phaser.Physics.Arcade.Sprite {
     constructor (scene, x, y, sprite) {
