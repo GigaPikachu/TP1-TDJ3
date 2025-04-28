@@ -1,14 +1,14 @@
-import { load_map } from "../components/map/load_map.js";
-import { player } from "../entities/player.js"
-import { puerta } from "../components/map/puerta.js";
+import { load_map } from "./../components/map/load_map.js";
+import { player } from "./../entities/player.js"
+import { puerta } from "./../components/map/puerta.js";
 
-import { waddle } from "../entities/enemies/waddle.js";
-import { bronto_burt } from "../entities/enemies/bronto_burt.js";
-import { sparky } from "../entities/enemies/sparky.js";
-import { hot_head } from "../entities/enemies/hot_head.js";
+import { waddle } from "./../entities/enemies/waddle.js";
+import { bronto_burt } from "./../entities/enemies/bronto_burt.js";
+import { sparky } from "./../entities/enemies/sparky.js";
+import { hot_head } from "./../entities/enemies/hot_head.js";
 
-import { anims } from "../components/anims.js";
-import { preloadSounds, sounds } from "../components/sounds.js";
+import { anims } from "./../components/anims.js";
+import { preloadSounds, sounds } from "./../components/sounds.js";
 
 export default class test extends Phaser.Scene {
     constructor() {
