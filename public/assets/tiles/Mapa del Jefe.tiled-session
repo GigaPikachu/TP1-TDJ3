@@ -1,0 +1,64 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "tilemaps/boos_map.json",
+    "expandedProjectPaths": [
+        "tilemaps",
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "#Boos_Tileset": {
+            "scaleInDock": 1
+        },
+        "tilemaps/boos_map.json": {
+            "scale": 1.9989583333333332,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 127.8165711307973,
+                "y": 16.258467952058368
+            }
+        },
+        "tilemaps/boos_map.json#Boos_Tileset": {
+            "scaleInDock": 1
+        },
+        "tilemaps/test_map.json": {
+            "scale": 0.8161706349206348,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 798.2399416555247,
+                "y": 87.60422997447432
+            }
+        },
+        "tilemaps/test_map.json#ByN": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "E:/Nueva carpeta/PROGRAMACION 1/Kirby's Adventure/public/assets/tiles/tilemaps",
+    "last.imagePath": "E:/Nueva carpeta/PROGRAMACION 1/Kirby's Adventure/public/assets/tiles/tilesets",
+    "map.height": 24,
+    "map.lastUsedExportFilter": "Todos los archivos (*)",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 16,
+    "openFiles": [
+        "tilemaps/test_map.json",
+        "tilemaps/boos_map.json"
+    ],
+    "project": "Mapa del Jefe.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "tilemaps/test_map.json",
+        "tilemaps/boos_map.json"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

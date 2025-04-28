@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="16" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <editorsettings>
+  <export target="tilemaps/boos_map.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Nivel_2" tilewidth="16" tileheight="16" tilecount="7" columns="7">
+  <image source="tilesets/Nivel_2.png" width="112" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="colision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="colision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="colision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="colision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="colision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="colision" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="colision" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Conjunto" width="16" height="24">
+  <data encoding="csv">
+4,4,4,5,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,5,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,5,0,0,0,0,0,0,0,0,0,0,0,0,
+4,4,4,5,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,2,0,0,3,1,1,1,1,1,
+4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,2,0,0,3,1,1,1,1,1,1,1,1,1,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+</data>
+ </layer>
+</map>
