@@ -1,7 +1,7 @@
-import test from "./scenes/test.js";
-import BoosMap from "./scenes/boos_map.js";
-import Hud from "./scenes/Hud.js";
-import preload from "./scenes/preload.js";
+import test from "scenes/test.js";
+import BoosMap from "scenes/boos_map.js";
+import Hud from "scenes/Hud.js";
+import preload from "scenes/preload.js";
 
 const config = {
     type: Phaser.AUTO,
