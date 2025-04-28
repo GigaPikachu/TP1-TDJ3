@@ -1,4 +1,4 @@
-import { fireball } from "../atacks/fireball.js";
+import { fireball } from "./../atacks/fireball.js";
 
 export class hot_head extends Phaser.Physics.Arcade.Sprite {
     constructor(scene, x, y) {
