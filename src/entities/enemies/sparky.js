@@ -1,4 +1,4 @@
-import { spark } from "../atacks/spark.js";
+import { spark } from "./../atacks/spark.js";
 
 export class sparky extends Phaser.Physics.Arcade.Sprite {
     constructor (scene, x, y) {
