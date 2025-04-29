@@ -17,18 +17,18 @@ export default class BoosMap extends Phaser.Scene {
     }
 
     preload () {
-        this.load.spritesheet("Hud", "../../public/assets/Hud/Hud.png", {
+        this.load.spritesheet("Hud", "./public/assets/Hud/Hud.png", {
             frameWidth: 256,
             frameHeight: 64,
         });
-        this.load.spritesheet("vidas", "../../public/assets/Hud/Vidas.png", {
+        this.load.spritesheet("vidas", "./public/assets/Hud/Vidas.png", {
             frameWidth: 8,
             frameHeight: 16,
         });
 
-        this.load.image("Bossvidas", "../../public/assets/Hud/Boss Vidas.png");
+        this.load.image("Bossvidas", "./public/assets/Hud/Boss Vidas.png");
 
-        this.load.spritesheet("powers", "../../public/assets/Hud/Powers.png", {
+        this.load.spritesheet("powers", "./public/assets/Hud/Powers.png", {
             frameWidth: 32,
             frameHeight: 40,
         });
