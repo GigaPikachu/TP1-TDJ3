@@ -1,7 +1,11 @@
-import { setTeclas, actualizarTeclasDesdeGamepad } from "./../components/player/setTeclas.js";
-import { Movimientos } from "./../components/player/movements.js";
-import { defAnims } from "./../components/player/defAnims.js";
-import { StarPower } from "./../components/player/StarPower.js";
+import { 
+    setTeclas,
+    configurarDeteccionGamepad,
+    actualizarTeclasDesdeGamepad
+} from "../components/player/setTeclas.js";
+import { Movimientos } from "../components/player/movements.js";
+import { defAnims } from "../components/player/defAnims.js";
+import { StarPower } from "../components/player/StarPower.js";
 
 export class player extends Phaser.Physics.Arcade.Sprite {
     constructor (scene, x, y, frame, vida) {
@@ -29,6 +33,7 @@ export class player extends Phaser.Physics.Arcade.Sprite {
 
         //teclas
         setTeclas(this, scene);
+        configurarDeteccionGamepad(this);
 
         //fisicas
         scene.add.existing(this);
