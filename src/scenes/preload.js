@@ -17,15 +17,15 @@ export default class preload extends Phaser.Scene {
             frameHeight: 32,
         });
 
-        this.load.spritesheet("waddle dee", "./public/assets/Sprites/waddle dee.png", {
+        this.load.spritesheet("waddle dee", "./public/assets/Sprites/waddle%20dee.png", {
             frameWidth: 16,
             frameHeight: 16,
         });
-        this.load.spritesheet("waddle doo", "./public/assets/Sprites/waddle doo.png", {
+        this.load.spritesheet("waddle doo", "./public/assets/Sprites/waddle%20doo.png", {
             frameWidth: 16,
             frameHeight: 16,
         });
-        this.load.spritesheet("bronto burt", "./public/assets/Sprites/bronto burt.png", {
+        this.load.spritesheet("bronto burt", "./public/assets/Sprites/bronto%20burt.png", {
             frameWidth: 16,
             frameHeight: 16,
         });
@@ -33,11 +33,11 @@ export default class preload extends Phaser.Scene {
             frameWidth: 16,
             frameHeight: 16,
         });
-        this.load.spritesheet("hot head", "./public/assets/Sprites/hot head.png", {
+        this.load.spritesheet("hot head", "./public/assets/Sprites/hot%20head.png", {
             frameWidth: 16,
             frameHeight: 16,
         });
-        this.load.spritesheet("whispy woods", "./public/assets/Sprites/whispy woods.png", {
+        this.load.spritesheet("whispy woods", "./public/assets/Sprites/whispy%20woods.png", {
             frameWidth: 56,
             frameHeight: 96,
         });
