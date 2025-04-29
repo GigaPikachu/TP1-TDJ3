@@ -58,7 +58,20 @@ export default class preload extends Phaser.Scene {
         this.load.image("Nivel2_tileset", "./public/assets/tiles/tilesets/Nivel_2.png");
         this.load.tilemapTiledJSON("boos_map", "./public/assets/tiles/tilemaps/boos_map.json");
         
-        preloadSounds(this);
+        this.load.audio("Green Fields", "./public/music/Green%20Fields.mp3");
+        this.load.audio("Boss!", "./public/music/Boss!.mp3");
+        this.load.audio("Fanfare", "./public/music/Fanfare.mp3");
+    
+        this.load.audio("Salto", "./public/sounds/salto.flac");
+        this.load.audio("Desinflar", "./public/sounds/desinflar.flac");
+        this.load.audio("Daño", "./public/sounds/daño.flac");
+    
+        this.load.audio("AspiradoraInit", "./public/sounds/aspiradora_init.flac");
+        this.load.audio("Aspiradora", "./public/sounds/aspiradora.flac");
+        this.load.audio("Disparar", "./public/sounds/disparar.flac");
+        this.load.audio("BeamPower", "./public/sounds/BeamPower.flac");
+        this.load.audio("SparkPower", "./public/sounds/SparkPower.flac");
+        this.load.audio("FirePower", "./public/sounds/FirePower.flac");
     }
 
     create () {
