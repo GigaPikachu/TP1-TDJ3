@@ -8,7 +8,7 @@ export default class preload extends Phaser.Scene {
     }
 
     preload () {
-        this.load.spritesheet("kirby", "./../../public/assets/Sprites/kirby.png", {
+        this.load.spritesheet("kirby", "./public/assets/Sprites/kirby.png", {
             frameWidth: 32,
             frameHeight: 32,
         });
