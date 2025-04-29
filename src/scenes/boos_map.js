@@ -1,10 +1,10 @@
-import { load_map } from "./../components/map/load_map.js";
-import { preloadSounds, sounds } from "./../components/sounds.js";
-import { player } from "./../entities/player.js"
+import { load_map } from "../components/map/load_map.js";
+import { preloadSounds, sounds } from "../components/sounds.js";
+import { player } from "../entities/player.js"
 
-import { whispy_woods } from "./../entities/enemies/whispy woods.js"
+import { whispy_woods } from "../entities/enemies/whispy woods.js"
 
-import { anims } from "./../components/anims.js";
+import { anims } from "../components/anims.js";
 
 export default class BoosMap extends Phaser.Scene {
     constructor() {
