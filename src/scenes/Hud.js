@@ -1,4 +1,4 @@
-import { vidas } from "./../entities/Hud/vidas.js";
+import { vidas } from "../entities/Hud/vidas.js";
 
 export default class BoosMap extends Phaser.Scene {
     constructor() {
