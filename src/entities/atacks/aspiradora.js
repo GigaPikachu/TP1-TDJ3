@@ -33,5 +33,7 @@ export class aspiradora extends Phaser.Physics.Arcade.Sprite {
             aspiradora.aspirado = true;
             scene.physics.moveToObject(objeto, scene.player, 150);
         });
+
+        this.anims.play("aspiradora", true);
     }
 }
