@@ -17,6 +17,15 @@ export function anims (scene) {
         frameRate: 6,
         repeat: 0,
     });
+    
+    scene.anims.create({
+        key: "aspiradora",
+        frames: scene.anims.generateFrameNumbers("aspiradora", {
+            frames: [0, 1, 2, 3]
+        }),
+        frameRate: 12,
+        repeat: -1,
+    });
 
     scene.anims.create({
         key: "star",
