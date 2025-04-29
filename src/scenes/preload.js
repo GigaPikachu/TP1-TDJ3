@@ -1,6 +1,6 @@
 
-import { anims } from "./../components/anims.js";
-import { preloadSounds, sounds } from "./../components/sounds.js";
+import { anims } from "../components/anims.js";
+import { preloadSounds, sounds } from "../components/sounds.js";
 
 export default class preload extends Phaser.Scene {
     constructor() {
