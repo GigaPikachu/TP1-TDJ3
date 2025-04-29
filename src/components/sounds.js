@@ -1,18 +1,18 @@
 export function preloadSounds (scene) {
-    scene.load.audio("Green Fields", "./../../public/music/Green Fields.mp3");
-    scene.load.audio("Boss!", "./../../public/music/Boss!.mp3");
-    scene.load.audio("Fanfare", "./../../public/music/Fanfare.mp3");
+    scene.load.audio("Green Fields", "./public/music/Green%20Fields.mp3");
+    scene.load.audio("Boss!", "./public/music/Boss!.mp3");
+    scene.load.audio("Fanfare", "./public/music/Fanfare.mp3");
 
-    scene.load.audio("Salto", "./../../public/sounds/salto.flac");
-    scene.load.audio("Desinflar", "./../../public/sounds/desinflar.flac");
-    scene.load.audio("Daño", "./../../public/sounds/daño.flac");
+    scene.load.audio("Salto", "./public/sounds/salto.flac");
+    scene.load.audio("Desinflar", "./public/sounds/desinflar.flac");
+    scene.load.audio("Daño", "./public/sounds/daño.flac");
 
-    scene.load.audio("AspiradoraInit", "./../../public/sounds/aspiradora_init.flac");
-    scene.load.audio("Aspiradora", "./../../public/sounds/aspiradora.flac");
-    scene.load.audio("Disparar", "./../../public/sounds/disparar.flac");
-    scene.load.audio("BeamPower", "./../../public/sounds/BeamPower.flac");
-    scene.load.audio("SparkPower", "./../../public/sounds/SparkPower.flac");
-    scene.load.audio("FirePower", "./../../public/sounds/FirePower.flac");
+    scene.load.audio("AspiradoraInit", "./public/sounds/aspiradora_init.flac");
+    scene.load.audio("Aspiradora", "./public/sounds/aspiradora.flac");
+    scene.load.audio("Disparar", "./public/sounds/disparar.flac");
+    scene.load.audio("BeamPower", "./public/sounds/BeamPower.flac");
+    scene.load.audio("SparkPower", "./public/sounds/SparkPower.flac");
+    scene.load.audio("FirePower", "./public/sounds/FirePower.flac");
 }
 
 export function sounds (scene) {
